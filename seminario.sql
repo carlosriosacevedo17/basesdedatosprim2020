@@ -18,6 +18,7 @@
 --
 -- Table structure for table `catalogo_carrera`
 --
+drop database if exists seminario;
 create database seminario;
 use seminario;
 DROP TABLE IF EXISTS `catalogo_carrera`;
