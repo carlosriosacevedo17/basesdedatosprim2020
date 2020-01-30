@@ -80,3 +80,9 @@ UNLOCK TABLES;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
 -- Dump completed on 2020-01-30 10:03:48
+--aquí vamos a exportar todas las filas y columnas de hospitaldb
+
+select h.codigo_h,h.nombre,s.codigo_s,s.nombre,s.num_camas
+from hospital as h,sala as s
+where h.codigo_h=s.codigo_h;
+
